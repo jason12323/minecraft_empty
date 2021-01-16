@@ -1,0 +1,12 @@
+setup:
+setmode(2);
+newvalue(0);
+main:
+when:
+Q press:
+setvalue0(getmp);
+setblock(value0,6);
+when:
+E press:
+setvalue0(getmb);
+setblock(value0,n);
