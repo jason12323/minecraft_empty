@@ -1,0 +1,3 @@
+cd minecraft_empty
+pip install pyglet
+python3 launcher.py
